@@ -1,40 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://gapexblog.netlify.app/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <priority>1.00</priority>
   </url>
-
   <url>
-    <loc>https://gapexblog.netlify.app/blog.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://gapexblog.netlify.app/about.html</loc>
+    <priority>0.80</priority>
   </url>
-
   <url>
     <loc>https://gapexblog.netlify.app/contact.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.80</priority>
   </url>
-
   <url>
-    <loc>https://gapexblog.netlify.app/post-top-phones-2025.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://gapexblog.netlify.app/blog.html</loc>
+    <priority>0.80</priority>
   </url>
-
-  <url>
-    <loc>https://gapexblog.netlify.app/post-how-start-affiliate.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://gapexblog.netlify.app/thank-you.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>
-
 </urlset>
