@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Gapex Blog</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">Gapex Blog</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Contact</h1>
+
+    <!-- Netlify will capture this form when deployed -->
+    <form name="contact" method="POST" data-netlify="true" action="thank-you.html">
+      <p><label>Name<br><input type="text" name="name" required></label></p>
+      <p><label>Email<br><input type="email" name="email" required></label></p>
+      <p><label>Message<br><textarea name="message" rows="5" required></textarea></label></p>
+      <p><button type="submit">Send Message</button></p>
+    </form>
+
+    <p class="small">If you don't get the form working yet, use: <a href="mailto:godspower204@gmail.com.com">godspower204@gmail.com</a></p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Gapex Blog — Built by Godspower</p>
+    </div>
+  </footer>
+
+  <script>
+    (function(){
+      const path = location.pathname.split('/').pop() || 'index.html';
+      document.querySelectorAll('header nav a').forEach(a=>{
+        if (a.getAttribute('href') === path) a.classList.add('active');
+      });
+    })();
+  </script>
+</body>
+</html>

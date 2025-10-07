@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gapex Blog — Tech & Reviews</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">Gapex Blog</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <h1>Smart tech reviews & money tips</h1>
+      <p>Learn, compare and earn — simple guides for beginners.</p>
+      <a class="btn" href="blog.html">Read Latest Posts</a>
+    </section>
+
+    <section class="container posts-preview">
+      <article>
+        <h2><a href="post-how-to-start-affiliate.html">How to Start Affiliate Marketing as a Beginner</a></h2>
+        <p>Step-by-step guide to get started with affiliate marketing in 2025.</p>
+        <a class="readmore" href="post-how-to-start-affiliate.html">Read more →</a>
+      </article>
+
+      <article>
+        <h2><a href="post-top-phones-2025.html">Top 5 Phones to Buy in 2025</a></h2>
+        <p>Best value smartphones that you can buy this year.</p>
+        <a class="readmore" href="post-top-phones-2025.html">Read more →</a>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Gapex Blog — Built by Godspower</p>
+    </div>
+  </footer>
+
+  <script>
+    (function(){
+      const path = location.pathname.split('/').pop() || 'index.html';
+      document.querySelectorAll('header nav a').forEach(a=>{
+        if (a.getAttribute('href') === path) a.classList.add('active');
+      });
+    })();
+  </script>
+</body>
+</html>
